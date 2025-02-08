@@ -6,8 +6,12 @@ import logging
 import yfinance as yf
 import os
 
+# Use absolute paths based on script location
+script_dir = os.path.dirname(os.path.abspath(__file__))
+log_file = os.path.join(script_dir, 'insider_scraping.log')
+csv_file = os.path.join(script_dir, 'insider_buys.csv')
+
 # Set up logging with FileHandler to ensure append mode
-log_file = 'scraping/insider_scraping.log'
 logger = logging.getLogger('insider_scraper')
 logger.setLevel(logging.INFO)
 
@@ -18,10 +22,21 @@ if not logger.handlers:
     handler.setFormatter(formatter)
     logger.addHandler(handler)
 
+# Add console handler
+if not logger.handlers:
+    # File handler (existing code)
+    file_handler = logging.FileHandler(log_file, mode='a')
+    file_handler.setFormatter(formatter)
+    logger.addHandler(file_handler)
+    
+    # Console handler
+    console_handler = logging.StreamHandler()
+    console_handler.setFormatter(formatter)
+    logger.addHandler(console_handler)
+
 def scrape_insider_buys():
     try:
         # Create or load existing CSV
-        csv_file = 'scraping/insider_buys.csv'
         if os.path.exists(csv_file):
             existing_df = pd.read_csv(csv_file)
             # Convert Filing Date to datetime for comparison
