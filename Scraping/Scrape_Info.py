@@ -78,13 +78,29 @@ def scrape_insider_buys():
                 if value >= 500000:
                     try:
                         stock = yf.Ticker(ticker)
-                        
-                        # Get historical price at filing date only
                         filing_datetime = datetime.strptime(filing_date, '%Y-%m-%d %H:%M:%S')
-                        historical_data = stock.history(start=filing_datetime.strftime('%Y-%m-%d'), 
-                                                      end=(filing_datetime + pd.Timedelta(days=1)).strftime('%Y-%m-%d'))
-                        price_bought = historical_data['Close'].iloc[0] if not historical_data.empty else None
                         
+                        # Get data for the specific day
+                        historical_data = stock.history(
+                            start=filing_datetime.date(),
+                            end=(filing_datetime + pd.Timedelta(days=1)).date(),
+                            interval='1m'
+                        )
+                        
+                        if not historical_data.empty:
+                            try:
+                                # Convert historical_data index to EST/EDT
+                                historical_data.index = historical_data.index.tz_localize(None)
+                                price_bought = historical_data.loc[filing_datetime]['Close']
+                            except KeyError:
+                                # If exact minute not found, get nearest minute
+                                closest_time = historical_data.index[
+                                    historical_data.index.get_indexer([filing_datetime], method='nearest')[0]
+                                ]
+                                price_bought = historical_data.loc[closest_time]['Close']
+                        else:
+                            price_bought = None
+                            
                     except Exception as e:
                         logger.error(f"Error fetching prices for {ticker}: {str(e)}")
                         price_bought = None
@@ -95,7 +111,7 @@ def scrape_insider_buys():
                         'Company Name': company_name,
                         'Transaction Price': transaction_price,
                         'Price Bought': price_bought,
-                        'Value': value
+                        'Value': int(round(value))  # Round value to integer
                     })
         
         # Create DataFrame from new data
