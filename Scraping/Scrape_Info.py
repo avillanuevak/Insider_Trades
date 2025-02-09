@@ -79,20 +79,15 @@ def scrape_insider_buys():
                     try:
                         stock = yf.Ticker(ticker)
                         
-                        # Get historical price at filing date
+                        # Get historical price at filing date only
                         filing_datetime = datetime.strptime(filing_date, '%Y-%m-%d %H:%M:%S')
                         historical_data = stock.history(start=filing_datetime.strftime('%Y-%m-%d'), 
                                                       end=(filing_datetime + pd.Timedelta(days=1)).strftime('%Y-%m-%d'))
                         price_bought = historical_data['Close'].iloc[0] if not historical_data.empty else None
                         
-                        # Get current price
-                        current_data = stock.history(period='1d')
-                        current_price = current_data['Close'].iloc[-1] if not current_data.empty else None
-                        
                     except Exception as e:
                         logger.error(f"Error fetching prices for {ticker}: {str(e)}")
                         price_bought = None
-                        current_price = None
                     
                     data.append({
                         'Filing Date': filing_date,
@@ -100,7 +95,6 @@ def scrape_insider_buys():
                         'Company Name': company_name,
                         'Transaction Price': transaction_price,
                         'Price Bought': price_bought,
-                        'Current Price': current_price,
                         'Value': value
                     })
         
