@@ -1,1 +1,10 @@
+<<<<<<< HEAD
 2025-02-09 18:47:38,656 - Created new file with 17 entries
+=======
+2025-02-08 18:06:15,595 - Error scraping website: could not convert string to float: '2,008.01'
+2025-02-08 18:30:21,760 - Updated existing file with 17 new entries
+2025-02-08 18:31:16,433 - Updated existing file with 17 new entries
+2025-02-08 20:08:13,333 - Error scraping website: HTTPConnectionPool(host='openinsider.com', port=80): Max retries exceeded with url: /insider-purchases (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000020698FCE050>: Failed to resolve 'openinsider.com' ([Errno 11001] getaddrinfo failed)"))
+2025-02-08 20:11:06,297 - Updated existing file with 17 new entries
+2025-02-08 23:24:01,482 - Updated existing file with 17 new entries
+>>>>>>> 5db8f54cc097f31427ed94e0ef887bfdab31c774
