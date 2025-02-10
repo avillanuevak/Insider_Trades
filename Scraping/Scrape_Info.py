@@ -69,9 +69,19 @@ def scrape_insider_buys():
             cols = row.find_all('td')
             if len(cols) > 0:
                 filing_date = cols[1].text.strip()
+                # Verify the date format and ensure it's not in the future
+                try:
+                    filing_datetime = datetime.strptime(filing_date, '%Y-%m-%d %H:%M:%S')
+                    if filing_datetime > datetime.now():
+                        logger.error(f"Future date detected: {filing_date}, skipping entry")
+                        continue
+                except ValueError as e:
+                    logger.error(f"Date parsing error: {e}")
+                    continue
+                    
                 ticker = cols[3].text.strip()
                 company_name = cols[4].text.strip()
-                insider_name = cols[5].text.strip()  # Extract insider name
+                insider_name = cols[5].text.strip()
                 transaction_price = float(cols[8].text.strip().replace('$', '').replace(',', ''))
                 value = float(cols[12].text.strip().replace('$', '').replace('+', '').replace(',', ''))
                 
