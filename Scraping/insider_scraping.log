@@ -7,3 +7,8 @@
 2025-02-10 13:41:34,505 - Error scraping website: HTTPConnectionPool(host='openinsider.com', port=80): Max retries exceeded with url: /insider-purchases (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001EBBA00ADD0>: Failed to resolve 'openinsider.com' ([Errno 11001] getaddrinfo failed)"))
 2025-02-10 13:45:03,185 - Error scraping website: HTTPConnectionPool(host='openinsider.com', port=80): Max retries exceeded with url: /insider-purchases (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025194AAC150>: Failed to resolve 'openinsider.com' ([Errno 11001] getaddrinfo failed)"))
 2025-02-10 14:45:51,046 - Updated existing file with 18 new entries
+2025-02-10 15:15:06,307 - Updated existing file with 18 new entries
+2025-02-10 15:29:46,112 - Updated existing file with 18 new entries
+2025-02-10 15:45:06,020 - Updated existing file with 18 new entries
+2025-02-10 15:53:49,954 - Updated existing file with 18 new entries
+2025-02-10 15:56:17,878 - Updated existing file with 18 new entries

@@ -79,9 +79,10 @@ def scrape_insider_buys():
                 if value >= 500000:
                     try:
                         stock = yf.Ticker(ticker)
+                        # Parse filing date and set Eastern timezone
                         filing_datetime = datetime.strptime(filing_date, '%Y-%m-%d %H:%M:%S')
                         
-                        # Get data for the specific day
+                        # Get data for the filing date
                         historical_data = stock.history(
                             start=filing_datetime.date(),
                             end=(filing_datetime + pd.Timedelta(days=1)).date(),
@@ -90,15 +91,29 @@ def scrape_insider_buys():
                         
                         if not historical_data.empty:
                             try:
-                                # Convert historical_data index to EST/EDT
+                                # Convert historical_data index to Eastern Time
+                                historical_data.index = historical_data.index.tz_convert('America/New_York')
+                                # Remove timezone info to match filing_datetime
                                 historical_data.index = historical_data.index.tz_localize(None)
-                                price_bought = historical_data.loc[filing_datetime]['Close']
-                            except KeyError:
-                                # If exact minute not found, get nearest minute
-                                closest_time = historical_data.index[
-                                    historical_data.index.get_indexer([filing_datetime], method='nearest')[0]
-                                ]
-                                price_bought = historical_data.loc[closest_time]['Close']
+                                
+                                # Get the price at filing time
+                                try:
+                                    price_bought = historical_data.loc[filing_datetime]['Close']
+                                except KeyError:
+                                    # If exact minute not found, get nearest minute
+                                    closest_time = historical_data.index[
+                                        historical_data.index.get_indexer([filing_datetime], method='nearest')[0]
+                                    ]
+                                    price_bought = historical_data.loc[closest_time]['Close']
+                            except AttributeError:
+                                # If data is not timezone aware, try direct lookup
+                                try:
+                                    price_bought = historical_data.loc[filing_datetime]['Close']
+                                except KeyError:
+                                    closest_time = historical_data.index[
+                                        historical_data.index.get_indexer([filing_datetime], method='nearest')[0]
+                                    ]
+                                    price_bought = historical_data.loc[closest_time]['Close']
                         else:
                             price_bought = None
                             
