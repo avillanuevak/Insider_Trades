@@ -151,11 +151,14 @@ def scrape_insider_buys():
             # Combine existing and new data
             combined_df = pd.concat([existing_df, new_df])
             
-            # Remove duplicates based on Filing Date, Ticker, and Transaction Price
+            # Keep only the first transaction per company per day
+            combined_df['Filing_Date_Only'] = combined_df['Filing Date'].dt.date
+            combined_df = combined_df.sort_values('Filing Date', ascending=True)  # Sort ascending to keep first
             combined_df = combined_df.drop_duplicates(
-                subset=['Filing Date', 'Ticker', 'Transaction Price', 'Insider Name'],  # Added Insider Name to subset
-                keep='last'
+                subset=['Filing_Date_Only', 'Company Name'],
+                keep='first'
             )
+            combined_df = combined_df.drop('Filing_Date_Only', axis=1)  # Remove helper column
             
             # Sort by Filing Date (most recent first)
             combined_df = combined_df.sort_values('Filing Date', ascending=False)
