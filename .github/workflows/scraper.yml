@@ -2,11 +2,9 @@ name: Run Scraper
 
 on:
   schedule:
-    # Runs at :30 past every hour from 14:30 through 20:30 UTC, Monday-Friday
-    # UTC:     14:30, 15:30, 16:30, 17:30, 18:30, 19:30, 20:30
-    # Spain:   15:30, 16:30, 17:30, 18:30, 19:30, 20:30, 21:30
-    # US ET:   09:30, 10:30, 11:30, 12:30, 13:30, 14:30, 15:30
-    - cron: '30 14,16,18,20 * * 1-5'
+    # Run every hour during market hours (UTC)
+    # US ET: 9:30 AM - 4:00 PM = UTC 13:30 - 20:00
+    - cron: '0 13-20 * * 1-5'
   workflow_dispatch:  # Allows manual trigger from GitHub UI
 
 jobs:
@@ -16,6 +14,8 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
+      with:
+        fetch-depth: 0  # Fetch all history for all branches and tags
       
     - name: Set up Python
       uses: actions/setup-python@v2
@@ -35,12 +35,19 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
         
-    - name: Run scraper
-      run: python Scraping/Scrape_Info.py
+    - name: Run scraper and calculate changes
+      run: |
+        python Scraping/Scrape_Info.py
+        python -c "
+        import sys
+        sys.path.append('.')
+        from Insider_Trades_Analysis import calculate_price_changes
+        calculate_price_changes()
+        "
       
     - name: Commit and push if changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add -A
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Update scraped data" && git push) 
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update scraped data and price changes" && git push) 
