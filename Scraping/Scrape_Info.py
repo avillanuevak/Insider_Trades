@@ -71,6 +71,7 @@ def scrape_insider_buys():
                 filing_date = cols[1].text.strip()
                 ticker = cols[3].text.strip()
                 company_name = cols[4].text.strip()
+                insider_name = cols[5].text.strip()  # Extract insider name
                 transaction_price = float(cols[8].text.strip().replace('$', '').replace(',', ''))
                 value = float(cols[12].text.strip().replace('$', '').replace('+', '').replace(',', ''))
                 
@@ -109,6 +110,7 @@ def scrape_insider_buys():
                         'Filing Date': filing_date,
                         'Ticker': ticker,
                         'Company Name': company_name,
+                        'Insider Name': insider_name,  # Add insider name to the data
                         'Transaction Price': transaction_price,
                         'Price Bought': price_bought,
                         'Value': int(round(value))  # Round value to integer
@@ -126,7 +128,7 @@ def scrape_insider_buys():
             
             # Remove duplicates based on Filing Date, Ticker, and Transaction Price
             combined_df = combined_df.drop_duplicates(
-                subset=['Filing Date', 'Ticker', 'Transaction Price'], 
+                subset=['Filing Date', 'Ticker', 'Transaction Price', 'Insider Name'],  # Added Insider Name to subset
                 keep='last'
             )
             
