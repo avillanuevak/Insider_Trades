@@ -35,19 +35,13 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
         
-    - name: Run scraper and calculate changes
+    - name: Run scraper
       run: |
         python Scraping/Scrape_Info.py
-        python -c "
-        import sys
-        sys.path.append('.')
-        from Insider_Trades_Analysis import calculate_price_changes
-        calculate_price_changes()
-        "
       
     - name: Commit and push if changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add -A
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Update scraped data and price changes" && git push) 
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update scraped data" && git push) 
