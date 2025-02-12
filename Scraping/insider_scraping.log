@@ -16,9 +16,7 @@
 2025-02-10 22:45:08,427 - Updated existing file with 20 new entries
 2025-02-10 23:15:08,216 - Updated existing file with 21 new entries
 2025-02-11 20:39:36,290 - Updated existing file with 20 new entries
-<<<<<<< HEAD
 2025-02-12 14:25:22,105 - Error scraping website: HTTPConnectionPool(host='openinsider.com', port=80): Max retries exceeded with url: /insider-purchases (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000024CD23CE6D0>: Failed to resolve 'openinsider.com' ([Errno 11001] getaddrinfo failed)"))
 2025-02-12 14:31:25,587 - Updated existing file with 21 new entries
-=======
-2025-02-12 13:19:24,986 - Updated existing file with 21 new entries
->>>>>>> 0c085b1ac526d55fc94dd9c3a4a4e3b641540cf6
+2025-02-12 14:45:07,771 - Updated existing file with 21 new entries
+2025-02-12 15:18:56,593 - Updated existing file with 21 new entries
