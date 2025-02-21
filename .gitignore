@@ -1,0 +1,3 @@
+# .gitignore
+.env
+Insider_Trades_Analysis.ipynb
