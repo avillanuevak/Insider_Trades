@@ -1,75 +1,100 @@
-2025-02-09 19:03:24,486 - Created new file with 17 entries
-2025-02-09 19:59:45,082 - Updated existing file with 17 new entries
-2025-02-09 20:15:06,493 - Updated existing file with 17 new entries
-2025-02-10 02:15:59,619 - Updated existing file with 17 new entries
-2025-02-10 10:47:59,599 - Updated existing file with 17 new entries
-2025-02-10 10:50:28,138 - Created new file with 17 entries
-2025-02-10 13:41:34,505 - Error scraping website: HTTPConnectionPool(host='openinsider.com', port=80): Max retries exceeded with url: /insider-purchases (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001EBBA00ADD0>: Failed to resolve 'openinsider.com' ([Errno 11001] getaddrinfo failed)"))
-2025-02-10 13:45:03,185 - Error scraping website: HTTPConnectionPool(host='openinsider.com', port=80): Max retries exceeded with url: /insider-purchases (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000025194AAC150>: Failed to resolve 'openinsider.com' ([Errno 11001] getaddrinfo failed)"))
-2025-02-10 14:45:51,046 - Updated existing file with 18 new entries
-2025-02-10 14:38:12,906 - Updated existing file with 18 new entries
-2025-02-10 16:42:00,337 - Updated existing file with 18 new entries
-2025-02-10 18:41:41,385 - Updated existing file with 18 new entries
-2025-02-10 20:38:16,309 - Updated existing file with 16 new entries
-2025-02-10 22:07:50,940 - Updated existing file with 20 new entries
-2025-02-10 22:15:09,516 - Updated existing file with 20 new entries
-2025-02-10 22:45:08,427 - Updated existing file with 20 new entries
-2025-02-10 23:15:08,216 - Updated existing file with 21 new entries
-2025-02-11 20:39:36,290 - Updated existing file with 20 new entries
-2025-02-12 14:25:22,105 - Error scraping website: HTTPConnectionPool(host='openinsider.com', port=80): Max retries exceeded with url: /insider-purchases (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000024CD23CE6D0>: Failed to resolve 'openinsider.com' ([Errno 11001] getaddrinfo failed)"))
-2025-02-12 14:31:25,587 - Updated existing file with 21 new entries
-2025-02-12 14:45:07,771 - Updated existing file with 21 new entries
-2025-02-12 15:18:56,593 - Updated existing file with 21 new entries
-2025-02-12 15:45:08,604 - Updated existing file with 21 new entries
-2025-02-12 16:18:11,948 - Updated existing file with 21 new entries
-2025-02-12 16:45:14,744 - Updated existing file with 21 new entries
-2025-02-12 17:15:10,847 - Updated existing file with 21 new entries
-2025-02-12 17:45:11,122 - Updated existing file with 21 new entries
-2025-02-12 18:15:25,138 - Updated existing file with 21 new entries
-2025-02-12 18:45:12,098 - Updated existing file with 20 new entries
-2025-02-12 19:15:10,930 - Updated existing file with 20 new entries
-2025-02-12 19:45:07,553 - Updated existing file with 20 new entries
-2025-02-12 20:15:09,344 - Updated existing file with 20 new entries
-2025-02-12 21:45:26,137 - Updated existing file with 21 new entries
-2025-02-12 22:15:10,072 - Updated existing file with 22 new entries
-2025-02-12 22:45:08,976 - Updated existing file with 23 new entries
-2025-02-13 10:17:44,567 - Updated existing file with 23 new entries
-2025-02-13 10:45:30,846 - Updated existing file with 23 new entries
-2025-02-13 14:32:26,617 - Error scraping website: HTTPConnectionPool(host='openinsider.com', port=80): Max retries exceeded with url: /insider-purchases (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000019FC77845D0>: Failed to resolve 'openinsider.com' ([Errno 11001] getaddrinfo failed)"))
-2025-02-13 14:45:07,483 - Updated existing file with 23 new entries
-2025-02-13 15:15:07,832 - Updated existing file with 23 new entries
-2025-02-13 15:46:00,888 - Updated existing file with 23 new entries
-2025-02-13 22:15:51,356 - Updated existing file with 23 new entries
-2025-02-13 22:45:09,988 - Updated existing file with 22 new entries
-2025-02-13 23:15:06,506 - Updated existing file with 22 new entries
-2025-02-13 23:45:07,987 - Updated existing file with 20 new entries
-2025-02-14 00:15:09,840 - Updated existing file with 20 new entries
-2025-02-14 08:45:56,829 - Updated existing file with 19 new entries
-2025-02-14 09:15:08,904 - Updated existing file with 19 new entries
-2025-02-14 11:45:57,873 - Updated existing file with 19 new entries
-2025-02-14 12:15:08,321 - Updated existing file with 19 new entries
-2025-02-14 12:45:07,959 - Updated existing file with 19 new entries
-2025-02-14 13:15:07,044 - Updated existing file with 19 new entries
-2025-02-14 13:45:07,108 - Updated existing file with 19 new entries
-2025-02-14 16:15:06,688 - Updated existing file with 18 new entries
-2025-02-14 16:45:09,059 - Updated existing file with 18 new entries
-2025-02-14 17:44:35,522 - Updated existing file with 18 new entries
-2025-02-14 17:45:07,907 - Updated existing file with 18 new entries
-2025-02-14 18:15:06,457 - Updated existing file with 18 new entries
-2025-02-14 18:45:06,270 - Updated existing file with 16 new entries
-2025-02-14 19:15:08,337 - Updated existing file with 16 new entries
-2025-02-14 19:45:06,420 - Updated existing file with 14 new entries
-2025-02-14 22:15:06,298 - Updated existing file with 12 new entries
-2025-02-15 15:46:11,143 - Updated existing file with 17 new entries
-2025-02-15 16:15:06,872 - Updated existing file with 17 new entries
-2025-02-15 16:45:52,842 - Updated existing file with 17 new entries
-2025-02-15 18:15:58,860 - Updated existing file with 17 new entries
-2025-02-15 18:45:06,077 - Updated existing file with 17 new entries
-2025-02-15 19:15:05,638 - Updated existing file with 17 new entries
-2025-02-15 19:45:05,976 - Updated existing file with 17 new entries
-2025-02-16 13:14:14,946 - Updated existing file with 17 new entries
-2025-02-16 13:15:09,484 - Updated existing file with 17 new entries
-2025-02-16 13:45:06,282 - Updated existing file with 17 new entries
-2025-02-16 14:55:52,740 - Updated existing file with 17 new entries
-2025-02-16 15:15:06,378 - Updated existing file with 17 new entries
-2025-02-16 15:45:07,275 - Updated existing file with 17 new entries
+Updated existing file with 1 new entries
+Updated existing file with 2 new entries
+2025-03-04 22:25:47,439 - ERROR - Error fetching price for STRL: Invalid comparison between dtype=datetime64[ns, America/New_York] and datetime
+2025-03-04 22:25:47,664 - ERROR - Error fetching price for CDXS: Invalid comparison between dtype=datetime64[ns, America/New_York] and datetime
+2025-03-04 22:25:47,933 - ERROR - Error fetching price for FMC: Invalid comparison between dtype=datetime64[ns, America/New_York] and datetime
+2025-03-04 22:25:48,074 - ERROR - Error fetching price for LINE: Invalid comparison between dtype=datetime64[ns, America/New_York] and datetime
+2025-03-04 22:25:48,088 - INFO - No new entries found
+2025-03-04 22:27:45,478 - INFO - Starting scraping process...
+2025-03-04 22:27:45,963 - INFO - Fetching price for MRNA at 2025-03-04 16:24:36
+2025-03-04 22:27:46,560 - WARNING - Attempt 1 failed for MRNA: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-03-04 22:27:47,673 - WARNING - Attempt 2 failed for MRNA: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-03-04 22:27:50,013 - WARNING - Attempt 3 failed for MRNA: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-03-04 22:27:50,014 - ERROR - Final error fetching price for MRNA: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-03-04 22:27:50,016 - WARNING - Could not get price for MRNA
+2025-03-04 22:27:50,018 - INFO - Fetching price for STRL at 2025-03-04 16:07:21
+2025-03-04 22:27:50,188 - WARNING - Attempt 1 failed for STRL: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-03-04 22:27:51,245 - WARNING - Attempt 2 failed for STRL: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-03-04 22:27:53,641 - WARNING - Attempt 3 failed for STRL: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-03-04 22:27:53,647 - ERROR - Final error fetching price for STRL: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-03-04 22:27:53,647 - WARNING - Could not get price for STRL
+2025-03-04 22:27:53,647 - INFO - Fetching price for CDXS at 2025-03-04 16:05:12
+2025-03-04 22:27:53,786 - WARNING - Attempt 1 failed for CDXS: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-03-04 22:27:54,849 - WARNING - Attempt 2 failed for CDXS: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-03-04 22:27:56,933 - WARNING - Attempt 3 failed for CDXS: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-03-04 22:27:56,933 - ERROR - Final error fetching price for CDXS: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-03-04 22:27:56,933 - WARNING - Could not get price for CDXS
+2025-03-04 22:27:56,938 - INFO - Fetching price for FMC at 2025-03-04 15:57:22
+2025-03-04 22:27:57,161 - WARNING - Attempt 1 failed for FMC: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-03-04 22:27:58,232 - WARNING - Attempt 2 failed for FMC: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-03-04 22:28:00,319 - WARNING - Attempt 3 failed for FMC: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-03-04 22:28:00,320 - ERROR - Final error fetching price for FMC: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-03-04 22:28:00,320 - WARNING - Could not get price for FMC
+2025-03-04 22:28:00,325 - INFO - Fetching price for LINE at 2025-03-03 17:18:22
+2025-03-04 22:28:00,436 - WARNING - Attempt 1 failed for LINE: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-03-04 22:28:01,479 - WARNING - Attempt 2 failed for LINE: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-03-04 22:28:03,531 - WARNING - Attempt 3 failed for LINE: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-03-04 22:28:03,531 - ERROR - Final error fetching price for LINE: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
+2025-03-04 22:28:03,531 - WARNING - Could not get price for LINE
+2025-03-04 22:28:03,559 - INFO - No new entries found
+2025-03-04 22:28:03,559 - INFO - Scraping process completed
+2025-03-04 22:29:04,534 - INFO - Starting scraping process...
+2025-03-04 22:29:05,051 - INFO - Fetching price for MRNA at 2025-03-04 16:27:16
+2025-03-04 22:29:06,413 - WARNING - Could not get price for MRNA
+2025-03-04 22:29:06,417 - INFO - Fetching price for MRNA at 2025-03-04 16:24:36
+2025-03-04 22:29:07,241 - WARNING - Could not get price for MRNA
+2025-03-04 22:29:07,244 - INFO - Fetching price for STRL at 2025-03-04 16:07:21
+2025-03-04 22:29:07,642 - WARNING - Could not get price for STRL
+2025-03-04 22:29:07,643 - INFO - Fetching price for CDXS at 2025-03-04 16:05:12
+2025-03-04 22:29:08,014 - WARNING - Could not get price for CDXS
+2025-03-04 22:29:08,015 - INFO - Fetching price for FMC at 2025-03-04 15:57:22
+2025-03-04 22:29:08,196 - WARNING - Could not get price for FMC
+2025-03-04 22:29:08,201 - INFO - Fetching price for LINE at 2025-03-03 17:18:22
+2025-03-04 22:29:08,584 - WARNING - Could not get price for LINE
+2025-03-04 22:29:08,597 - INFO - No new entries found
+2025-03-04 22:29:08,598 - INFO - Scraping process completed
+2025-03-04 22:30:36,123 - INFO - Starting scraping process...
+2025-03-04 22:30:36,570 - INFO - Fetching price for MRNA at 2025-03-04 16:27:16
+2025-03-04 22:30:37,524 - WARNING - No price data available for MRNA
+2025-03-04 22:30:37,540 - WARNING - Could not get accurate price for MRNA
+2025-03-04 22:30:37,547 - INFO - Fetching price for MRNA at 2025-03-04 16:24:36
+2025-03-04 22:30:38,469 - WARNING - No price data available for MRNA
+2025-03-04 22:30:38,469 - WARNING - Could not get accurate price for MRNA
+2025-03-04 22:30:38,482 - INFO - Fetching price for STRL at 2025-03-04 16:07:21
+2025-03-04 22:30:39,374 - WARNING - No price data available for STRL
+2025-03-04 22:30:39,374 - WARNING - Could not get accurate price for STRL
+2025-03-04 22:30:39,376 - INFO - Fetching price for CDXS at 2025-03-04 16:05:12
+2025-03-04 22:30:41,082 - WARNING - No price data available for CDXS
+2025-03-04 22:30:41,088 - WARNING - Could not get accurate price for CDXS
+2025-03-04 22:30:41,098 - INFO - Fetching price for FMC at 2025-03-04 15:57:22
+2025-03-04 22:30:42,038 - WARNING - No price data available for FMC
+2025-03-04 22:30:42,038 - WARNING - Could not get accurate price for FMC
+2025-03-04 22:30:42,054 - INFO - Fetching price for LINE at 2025-03-03 17:18:22
+2025-03-04 22:30:42,574 - WARNING - No price data available for LINE
+2025-03-04 22:30:42,574 - WARNING - Could not get accurate price for LINE
+2025-03-04 22:30:42,603 - INFO - No new entries found
+2025-03-04 22:30:42,606 - INFO - Scraping process completed
+2025-03-04 22:32:42,205 - INFO - Starting scraping process...
+2025-03-04 22:32:42,695 - INFO - Fetching price for TBLA at 2025-03-04 16:30:59
+2025-03-04 22:32:43,406 - WARNING - No price data available for TBLA
+2025-03-04 22:32:43,408 - WARNING - Could not get accurate price for TBLA
+2025-03-04 22:32:43,422 - INFO - Fetching price for MRNA at 2025-03-04 16:27:16
+2025-03-04 22:32:45,311 - WARNING - No price data available for MRNA
+2025-03-04 22:32:45,313 - WARNING - Could not get accurate price for MRNA
+2025-03-04 22:32:45,323 - INFO - Fetching price for MRNA at 2025-03-04 16:24:36
+2025-03-04 22:32:47,016 - WARNING - No price data available for MRNA
+2025-03-04 22:32:47,022 - WARNING - Could not get accurate price for MRNA
+2025-03-04 22:32:47,054 - INFO - Fetching price for STRL at 2025-03-04 16:07:21
+2025-03-04 22:32:48,909 - WARNING - No price data available for STRL
+2025-03-04 22:32:48,917 - WARNING - Could not get accurate price for STRL
+2025-03-04 22:32:48,941 - INFO - Fetching price for CDXS at 2025-03-04 16:05:12
+2025-03-04 22:32:49,987 - WARNING - No price data available for CDXS
+2025-03-04 22:32:49,993 - WARNING - Could not get accurate price for CDXS
+2025-03-04 22:32:50,057 - INFO - Fetching price for FMC at 2025-03-04 15:57:22
+2025-03-04 22:32:50,834 - WARNING - No price data available for FMC
+2025-03-04 22:32:50,839 - WARNING - Could not get accurate price for FMC
+2025-03-04 22:32:50,867 - INFO - Fetching price for LINE at 2025-03-03 17:18:22
+2025-03-04 22:32:51,357 - WARNING - No price data available for LINE
+2025-03-04 22:32:51,375 - WARNING - Could not get accurate price for LINE
+2025-03-04 22:32:51,421 - INFO - No new entries found
+2025-03-04 22:32:51,454 - INFO - Scraping process completed
