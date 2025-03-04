@@ -1,55 +1,3 @@
-Updated existing file with 1 new entries
-Updated existing file with 2 new entries
-2025-03-04 22:25:47,439 - ERROR - Error fetching price for STRL: Invalid comparison between dtype=datetime64[ns, America/New_York] and datetime
-2025-03-04 22:25:47,664 - ERROR - Error fetching price for CDXS: Invalid comparison between dtype=datetime64[ns, America/New_York] and datetime
-2025-03-04 22:25:47,933 - ERROR - Error fetching price for FMC: Invalid comparison between dtype=datetime64[ns, America/New_York] and datetime
-2025-03-04 22:25:48,074 - ERROR - Error fetching price for LINE: Invalid comparison between dtype=datetime64[ns, America/New_York] and datetime
-2025-03-04 22:25:48,088 - INFO - No new entries found
-2025-03-04 22:27:45,478 - INFO - Starting scraping process...
-2025-03-04 22:27:45,963 - INFO - Fetching price for MRNA at 2025-03-04 16:24:36
-2025-03-04 22:27:46,560 - WARNING - Attempt 1 failed for MRNA: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
-2025-03-04 22:27:47,673 - WARNING - Attempt 2 failed for MRNA: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
-2025-03-04 22:27:50,013 - WARNING - Attempt 3 failed for MRNA: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
-2025-03-04 22:27:50,014 - ERROR - Final error fetching price for MRNA: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
-2025-03-04 22:27:50,016 - WARNING - Could not get price for MRNA
-2025-03-04 22:27:50,018 - INFO - Fetching price for STRL at 2025-03-04 16:07:21
-2025-03-04 22:27:50,188 - WARNING - Attempt 1 failed for STRL: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
-2025-03-04 22:27:51,245 - WARNING - Attempt 2 failed for STRL: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
-2025-03-04 22:27:53,641 - WARNING - Attempt 3 failed for STRL: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
-2025-03-04 22:27:53,647 - ERROR - Final error fetching price for STRL: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
-2025-03-04 22:27:53,647 - WARNING - Could not get price for STRL
-2025-03-04 22:27:53,647 - INFO - Fetching price for CDXS at 2025-03-04 16:05:12
-2025-03-04 22:27:53,786 - WARNING - Attempt 1 failed for CDXS: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
-2025-03-04 22:27:54,849 - WARNING - Attempt 2 failed for CDXS: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
-2025-03-04 22:27:56,933 - WARNING - Attempt 3 failed for CDXS: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
-2025-03-04 22:27:56,933 - ERROR - Final error fetching price for CDXS: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
-2025-03-04 22:27:56,933 - WARNING - Could not get price for CDXS
-2025-03-04 22:27:56,938 - INFO - Fetching price for FMC at 2025-03-04 15:57:22
-2025-03-04 22:27:57,161 - WARNING - Attempt 1 failed for FMC: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
-2025-03-04 22:27:58,232 - WARNING - Attempt 2 failed for FMC: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
-2025-03-04 22:28:00,319 - WARNING - Attempt 3 failed for FMC: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
-2025-03-04 22:28:00,320 - ERROR - Final error fetching price for FMC: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
-2025-03-04 22:28:00,320 - WARNING - Could not get price for FMC
-2025-03-04 22:28:00,325 - INFO - Fetching price for LINE at 2025-03-03 17:18:22
-2025-03-04 22:28:00,436 - WARNING - Attempt 1 failed for LINE: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
-2025-03-04 22:28:01,479 - WARNING - Attempt 2 failed for LINE: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
-2025-03-04 22:28:03,531 - WARNING - Attempt 3 failed for LINE: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
-2025-03-04 22:28:03,531 - ERROR - Final error fetching price for LINE: Invalid comparison between dtype=datetime64[ns, UTC] and datetime
-2025-03-04 22:28:03,531 - WARNING - Could not get price for LINE
-2025-03-04 22:28:03,559 - INFO - No new entries found
-2025-03-04 22:28:03,559 - INFO - Scraping process completed
-2025-03-04 22:29:04,534 - INFO - Starting scraping process...
-2025-03-04 22:29:05,051 - INFO - Fetching price for MRNA at 2025-03-04 16:27:16
-2025-03-04 22:29:06,413 - WARNING - Could not get price for MRNA
-2025-03-04 22:29:06,417 - INFO - Fetching price for MRNA at 2025-03-04 16:24:36
-2025-03-04 22:29:07,241 - WARNING - Could not get price for MRNA
-2025-03-04 22:29:07,244 - INFO - Fetching price for STRL at 2025-03-04 16:07:21
-2025-03-04 22:29:07,642 - WARNING - Could not get price for STRL
-2025-03-04 22:29:07,643 - INFO - Fetching price for CDXS at 2025-03-04 16:05:12
-2025-03-04 22:29:08,014 - WARNING - Could not get price for CDXS
-2025-03-04 22:29:08,015 - INFO - Fetching price for FMC at 2025-03-04 15:57:22
-2025-03-04 22:29:08,196 - WARNING - Could not get price for FMC
-2025-03-04 22:29:08,201 - INFO - Fetching price for LINE at 2025-03-03 17:18:22
 2025-03-04 22:29:08,584 - WARNING - Could not get price for LINE
 2025-03-04 22:29:08,597 - INFO - No new entries found
 2025-03-04 22:29:08,598 - INFO - Scraping process completed
@@ -98,3 +46,55 @@ Updated existing file with 2 new entries
 2025-03-04 22:32:51,375 - WARNING - Could not get accurate price for LINE
 2025-03-04 22:32:51,421 - INFO - No new entries found
 2025-03-04 22:32:51,454 - INFO - Scraping process completed
+2025-03-04 22:35:22,070 - INFO - Starting scraping process...
+2025-03-04 22:35:22,573 - INFO - Fetching price for TBLA at 2025-03-04 16:30:59
+2025-03-04 22:35:24,811 - WARNING - No price data available for TBLA
+2025-03-04 22:35:24,813 - WARNING - Could not get accurate price for TBLA
+2025-03-04 22:35:24,822 - INFO - Fetching price for MRNA at 2025-03-04 16:27:16
+2025-03-04 22:35:25,452 - WARNING - No price data available for MRNA
+2025-03-04 22:35:25,460 - WARNING - Could not get accurate price for MRNA
+2025-03-04 22:35:25,511 - INFO - Fetching price for MRNA at 2025-03-04 16:24:36
+2025-03-04 22:35:26,487 - WARNING - No price data available for MRNA
+2025-03-04 22:35:26,492 - WARNING - Could not get accurate price for MRNA
+2025-03-04 22:35:26,514 - INFO - Fetching price for STRL at 2025-03-04 16:07:21
+2025-03-04 22:35:27,942 - WARNING - No price data available for STRL
+2025-03-04 22:35:27,949 - WARNING - Could not get accurate price for STRL
+2025-03-04 22:35:27,976 - INFO - Fetching price for CDXS at 2025-03-04 16:05:12
+2025-03-04 22:35:28,720 - WARNING - No price data available for CDXS
+2025-03-04 22:35:28,740 - WARNING - Could not get accurate price for CDXS
+2025-03-04 22:35:28,778 - INFO - Fetching price for FMC at 2025-03-04 15:57:22
+2025-03-04 22:35:31,490 - WARNING - No price data available for FMC
+2025-03-04 22:35:31,493 - WARNING - Could not get accurate price for FMC
+2025-03-04 22:35:31,513 - INFO - Fetching price for LINE at 2025-03-03 17:18:22
+2025-03-04 22:35:34,210 - WARNING - No price data available for LINE
+2025-03-04 22:35:34,214 - WARNING - Could not get accurate price for LINE
+2025-03-04 22:35:34,237 - INFO - No new entries found
+2025-03-04 22:35:34,259 - INFO - Scraping process completed
+2025-03-04 22:45:03,228 - INFO - Starting scraping process...
+2025-03-04 23:15:03,152 - INFO - Starting scraping process...
+2025-03-04 23:15:03,689 - INFO - Fetching price for AUPH at 2025-03-04 17:03:02
+2025-03-04 23:15:05,687 - WARNING - No price data available for AUPH
+2025-03-04 23:15:05,696 - WARNING - Could not get accurate price for AUPH
+2025-03-04 23:15:05,780 - INFO - Fetching price for TBLA at 2025-03-04 16:30:59
+2025-03-04 23:15:06,636 - WARNING - No price data available for TBLA
+2025-03-04 23:15:06,641 - WARNING - Could not get accurate price for TBLA
+2025-03-04 23:15:06,698 - INFO - Fetching price for MRNA at 2025-03-04 16:27:16
+2025-03-04 23:15:07,318 - WARNING - No price data available for MRNA
+2025-03-04 23:15:07,318 - WARNING - Could not get accurate price for MRNA
+2025-03-04 23:15:07,375 - INFO - Fetching price for MRNA at 2025-03-04 16:24:36
+2025-03-04 23:15:07,924 - WARNING - No price data available for MRNA
+2025-03-04 23:15:07,938 - WARNING - Could not get accurate price for MRNA
+2025-03-04 23:15:08,001 - INFO - Fetching price for STRL at 2025-03-04 16:07:21
+2025-03-04 23:15:08,467 - WARNING - No price data available for STRL
+2025-03-04 23:15:08,473 - WARNING - Could not get accurate price for STRL
+2025-03-04 23:15:08,508 - INFO - Fetching price for CDXS at 2025-03-04 16:05:12
+2025-03-04 23:15:08,979 - WARNING - No price data available for CDXS
+2025-03-04 23:15:08,987 - WARNING - Could not get accurate price for CDXS
+2025-03-04 23:15:09,038 - INFO - Fetching price for FMC at 2025-03-04 15:57:22
+2025-03-04 23:15:10,186 - WARNING - No price data available for FMC
+2025-03-04 23:15:10,193 - WARNING - Could not get accurate price for FMC
+2025-03-04 23:15:10,285 - INFO - Fetching price for LINE at 2025-03-03 17:18:22
+2025-03-04 23:15:11,020 - WARNING - No price data available for LINE
+2025-03-04 23:15:11,024 - WARNING - Could not get accurate price for LINE
+2025-03-04 23:15:11,084 - INFO - No new entries found
+2025-03-04 23:15:11,134 - INFO - Scraping process completed
