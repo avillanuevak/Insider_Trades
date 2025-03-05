@@ -1,30 +1,3 @@
-2025-03-04 22:35:27,949 - WARNING - Could not get accurate price for STRL
-2025-03-04 22:35:27,976 - INFO - Fetching price for CDXS at 2025-03-04 16:05:12
-2025-03-04 22:35:28,720 - WARNING - No price data available for CDXS
-2025-03-04 22:35:28,740 - WARNING - Could not get accurate price for CDXS
-2025-03-04 22:35:28,778 - INFO - Fetching price for FMC at 2025-03-04 15:57:22
-2025-03-04 22:35:31,490 - WARNING - No price data available for FMC
-2025-03-04 22:35:31,493 - WARNING - Could not get accurate price for FMC
-2025-03-04 22:35:31,513 - INFO - Fetching price for LINE at 2025-03-03 17:18:22
-2025-03-04 22:35:34,210 - WARNING - No price data available for LINE
-2025-03-04 22:35:34,214 - WARNING - Could not get accurate price for LINE
-2025-03-04 22:35:34,237 - INFO - No new entries found
-2025-03-04 22:35:34,259 - INFO - Scraping process completed
-2025-03-04 22:45:03,228 - INFO - Starting scraping process...
-2025-03-04 23:15:03,152 - INFO - Starting scraping process...
-2025-03-04 23:15:03,689 - INFO - Fetching price for AUPH at 2025-03-04 17:03:02
-2025-03-04 23:15:05,687 - WARNING - No price data available for AUPH
-2025-03-04 23:15:05,696 - WARNING - Could not get accurate price for AUPH
-2025-03-04 23:15:05,780 - INFO - Fetching price for TBLA at 2025-03-04 16:30:59
-2025-03-04 23:15:06,636 - WARNING - No price data available for TBLA
-2025-03-04 23:15:06,641 - WARNING - Could not get accurate price for TBLA
-2025-03-04 23:15:06,698 - INFO - Fetching price for MRNA at 2025-03-04 16:27:16
-2025-03-04 23:15:07,318 - WARNING - No price data available for MRNA
-2025-03-04 23:15:07,318 - WARNING - Could not get accurate price for MRNA
-2025-03-04 23:15:07,375 - INFO - Fetching price for MRNA at 2025-03-04 16:24:36
-2025-03-04 23:15:07,924 - WARNING - No price data available for MRNA
-2025-03-04 23:15:07,938 - WARNING - Could not get accurate price for MRNA
-2025-03-04 23:15:08,001 - INFO - Fetching price for STRL at 2025-03-04 16:07:21
 2025-03-04 23:15:08,467 - WARNING - No price data available for STRL
 2025-03-04 23:15:08,473 - WARNING - Could not get accurate price for STRL
 2025-03-04 23:15:08,508 - INFO - Fetching price for CDXS at 2025-03-04 16:05:12
@@ -98,3 +71,30 @@
 2025-03-05 16:15:03,453 - INFO - Starting scraping process...
 2025-03-05 16:15:03,964 - INFO - No new entries found
 2025-03-05 16:15:03,964 - INFO - Scraping process completed
+2025-03-05 22:15:03,680 - INFO - Starting scraping process...
+2025-03-05 22:15:04,286 - INFO - Fetching price for IFF at 2025-03-05 16:08:27
+2025-03-05 22:15:06,398 - WARNING - Price for IFF found 1209.5 minutes from filing time
+2025-03-05 22:15:06,415 - INFO - Successfully fetched price 79.7901 for IFF
+2025-03-05 22:15:18,467 - INFO - Fetching price for THM at 2025-03-05 16:07:27
+2025-03-05 22:15:19,369 - WARNING - Price for THM found 1207.5 minutes from filing time
+2025-03-05 22:15:19,369 - INFO - Successfully fetched price 0.473 for THM
+2025-03-05 22:15:31,403 - INFO - Fetching price for ARCC at 2025-03-05 16:05:17
+2025-03-05 22:15:32,639 - WARNING - Price for ARCC found 1206.3 minutes from filing time
+2025-03-05 22:15:32,650 - INFO - Successfully fetched price 22.94 for ARCC
+2025-03-05 22:15:44,679 - INFO - Fetching price for STRA at 2025-03-05 16:01:19
+2025-03-05 22:15:45,820 - WARNING - Price for STRA found 1436.3 minutes from filing time
+2025-03-05 22:15:45,823 - INFO - Successfully fetched price 81.37 for STRA
+2025-03-05 22:15:57,866 - INFO - Fetching price for MAC at 2025-03-05 15:40:13
+2025-03-05 22:15:59,320 - WARNING - Price for MAC found 1193.2 minutes from filing time
+2025-03-05 22:15:59,325 - INFO - Successfully fetched price 17.95 for MAC
+2025-03-05 22:16:11,360 - INFO - Fetching price for NOG at 2025-03-05 12:55:42
+2025-03-05 22:16:15,794 - WARNING - Price for NOG found 1017.7 minutes from filing time
+2025-03-05 22:16:15,794 - INFO - Successfully fetched price 28.46 for NOG
+2025-03-05 22:16:27,848 - INFO - Fetching price for BEN at 2025-03-05 12:49:43
+2025-03-05 22:16:29,521 - WARNING - Price for BEN found 1066.7 minutes from filing time
+2025-03-05 22:16:29,527 - INFO - Successfully fetched price 19.9228 for BEN
+2025-03-05 22:16:41,556 - INFO - Fetching price for DGICA at 2025-03-05 10:18:39
+2025-03-05 22:16:42,807 - WARNING - Price for DGICA found 943.6 minutes from filing time
+2025-03-05 22:16:42,807 - INFO - Successfully fetched price 17.46 for DGICA
+2025-03-05 22:16:54,861 - INFO - Added 8 new entries
+2025-03-05 22:16:54,863 - INFO - Scraping process completed
