@@ -1,6 +1,3 @@
-2025-03-04 23:15:08,467 - WARNING - No price data available for STRL
-2025-03-04 23:15:08,473 - WARNING - Could not get accurate price for STRL
-2025-03-04 23:15:08,508 - INFO - Fetching price for CDXS at 2025-03-04 16:05:12
 2025-03-04 23:15:08,979 - WARNING - No price data available for CDXS
 2025-03-04 23:15:08,987 - WARNING - Could not get accurate price for CDXS
 2025-03-04 23:15:09,038 - INFO - Fetching price for FMC at 2025-03-04 15:57:22
@@ -98,3 +95,6 @@
 2025-03-05 22:16:42,807 - INFO - Successfully fetched price 17.46 for DGICA
 2025-03-05 22:16:54,861 - INFO - Added 8 new entries
 2025-03-05 22:16:54,863 - INFO - Scraping process completed
+2025-03-05 22:45:37,630 - INFO - Starting scraping process...
+2025-03-05 22:45:38,640 - INFO - No new entries found
+2025-03-05 22:45:38,656 - INFO - Scraping process completed
