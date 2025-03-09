@@ -100,3 +100,32 @@
 2025-03-05 22:45:38,656 - INFO - Scraping process completed
 2025-03-06 08:56:24,138 - Updated existing file with 22 new entries
 2025-03-06 10:05:50,918 - Updated existing file with 22 new entries
+2025-03-06 10:15:03,106 - Updated existing file with 22 new entries
+2025-03-06 17:50:41,922 - Error scraping website: HTTPConnectionPool(host='openinsider.com', port=80): Max retries exceeded with url: /insider-purchases (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000024F81BC5250>: Failed to resolve 'openinsider.com' ([Errno 11001] getaddrinfo failed)"))
+2025-03-06 18:15:38,892 - Updated existing file with 15 new entries
+2025-03-06 18:45:03,356 - Updated existing file with 15 new entries
+2025-03-06 19:15:03,449 - Updated existing file with 15 new entries
+2025-03-06 21:45:04,838 - Updated existing file with 14 new entries
+2025-03-06 22:15:03,937 - Updated existing file with 13 new entries
+2025-03-07 14:36:04,890 - Error scraping website: HTTPConnectionPool(host='openinsider.com', port=80): Max retries exceeded with url: /insider-purchases (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000020DA50FD110>: Failed to resolve 'openinsider.com' ([Errno 11001] getaddrinfo failed)"))
+2025-03-07 14:45:09,054 - Error scraping website: HTTPConnectionPool(host='openinsider.com', port=80): Max retries exceeded with url: /insider-purchases (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000001B4E226BD10>: Failed to resolve 'openinsider.com' ([Errno 11001] getaddrinfo failed)"))
+2025-03-07 15:15:28,038 - Updated existing file with 13 new entries
+2025-03-07 15:45:04,183 - Updated existing file with 13 new entries
+2025-03-07 16:15:03,967 - Updated existing file with 12 new entries
+2025-03-07 16:45:03,960 - Updated existing file with 12 new entries
+2025-03-07 17:15:04,701 - Updated existing file with 12 new entries
+2025-03-07 17:45:05,134 - Updated existing file with 12 new entries
+2025-03-07 18:15:04,327 - Updated existing file with 12 new entries
+2025-03-07 18:45:05,018 - Updated existing file with 12 new entries
+2025-03-07 19:32:27,411 - Updated existing file with 12 new entries
+2025-03-07 19:45:05,456 - Updated existing file with 12 new entries
+2025-03-07 23:15:05,116 - Updated existing file with 12 new entries
+2025-03-07 23:41:00,106 - Updated existing file with 12 new entries
+2025-03-08 16:45:35,816 - Updated existing file with 15 new entries
+2025-03-08 17:15:06,021 - Updated existing file with 15 new entries
+2025-03-08 17:45:37,038 - Updated existing file with 15 new entries
+2025-03-08 18:15:05,765 - Updated existing file with 15 new entries
+2025-03-08 18:45:04,718 - Updated existing file with 15 new entries
+2025-03-08 19:15:05,273 - Updated existing file with 15 new entries
+2025-03-08 19:45:36,654 - Updated existing file with 15 new entries
+2025-03-08 20:45:27,771 - Updated existing file with 15 new entries
