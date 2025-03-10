@@ -129,3 +129,221 @@
 2025-03-08 19:15:05,273 - Updated existing file with 15 new entries
 2025-03-08 19:45:36,654 - Updated existing file with 15 new entries
 2025-03-08 20:45:27,771 - Updated existing file with 15 new entries
+2025-03-09 17:15:31,616 - Updated existing file with 15 new entries
+2025-03-09 17:45:36,529 - Updated existing file with 15 new entries
+2025-03-09 18:15:03,893 - Updated existing file with 15 new entries
+2025-03-09 18:45:03,625 - Updated existing file with 15 new entries
+2025-03-09 19:15:04,128 - Updated existing file with 15 new entries
+2025-03-09 19:45:03,777 - Updated existing file with 15 new entries
+2025-03-10 11:32:06,790 - Updated existing file with 15 new entries
+2025-03-10 11:45:03,865 - Updated existing file with 15 new entries
+2025-03-10 12:15:03,776 - Updated existing file with 14 new entries
+2025-03-10 14:45:23,074 - Updated existing file with 12 new entries
+2025-03-10 15:15:04,272 - Updated existing file with 11 new entries
+2025-03-10 16:15:03,866 - Updated existing file with 9 new entries
+2025-03-10 16:45:03,864 - Updated existing file with 9 new entries
+2025-03-10 17:15:04,122 - Updated existing file with 9 new entries
+2025-03-10 18:45:03,959 - Updated existing file with 9 new entries
+2025-03-10 19:15:43,820 - Updated existing file with 9 new entries
+2025-03-10 21:39:47,280 - Updated existing file with 8 new entries
+2025-03-10 21:41:53,984 - Updated existing file with 20 new entries
+2025-03-10 22:27:53,197 - Starting insider trading data collection...
+2025-03-10 22:27:53,679 - Fetching prices for 20 new entries...
+2025-03-10 22:27:54,281 - Error fetching price for CE: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:27:54,281 - Attempt 1: No price found for CE
+2025-03-10 22:27:56,389 - Error fetching price for CE: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:27:56,389 - Attempt 2: No price found for CE
+2025-03-10 22:27:58,513 - Error fetching price for CE: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:27:58,518 - Attempt 3: No price found for CE
+2025-03-10 22:28:00,521 - Fetched price for CE: None
+2025-03-10 22:28:01,689 - Error fetching price for CDXS: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:28:01,689 - Attempt 1: No price found for CDXS
+2025-03-10 22:28:03,749 - Error fetching price for CDXS: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:28:03,749 - Attempt 2: No price found for CDXS
+2025-03-10 22:28:05,889 - Error fetching price for CDXS: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:28:05,890 - Attempt 3: No price found for CDXS
+2025-03-10 22:28:07,892 - Fetched price for CDXS: None
+2025-03-10 22:28:09,234 - Error fetching price for LKFN: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:28:09,234 - Attempt 1: No price found for LKFN
+2025-03-10 22:28:11,355 - Error fetching price for LKFN: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:28:11,357 - Attempt 2: No price found for LKFN
+2025-03-10 22:28:13,473 - Error fetching price for LKFN: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:28:13,475 - Attempt 3: No price found for LKFN
+2025-03-10 22:28:15,477 - Fetched price for LKFN: None
+2025-03-10 22:28:16,613 - Error fetching price for WSC: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:28:16,614 - Attempt 1: No price found for WSC
+2025-03-10 22:28:18,708 - Error fetching price for WSC: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:28:18,710 - Attempt 2: No price found for WSC
+2025-03-10 22:28:20,778 - Error fetching price for WSC: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:28:20,778 - Attempt 3: No price found for WSC
+2025-03-10 22:28:22,779 - Fetched price for WSC: None
+2025-03-10 22:28:23,938 - Error fetching price for AAP: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:28:23,940 - Attempt 1: No price found for AAP
+2025-03-10 22:28:26,001 - Error fetching price for AAP: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:28:26,001 - Attempt 2: No price found for AAP
+2025-03-10 22:28:28,077 - Error fetching price for AAP: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:28:28,077 - Attempt 3: No price found for AAP
+2025-03-10 22:28:30,081 - Fetched price for AAP: None
+2025-03-10 22:28:31,188 - Error fetching price for UPBD: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:28:31,188 - Attempt 1: No price found for UPBD
+2025-03-10 22:28:33,267 - Error fetching price for UPBD: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:28:33,268 - Attempt 2: No price found for UPBD
+2025-03-10 22:28:35,377 - Error fetching price for UPBD: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:28:35,378 - Attempt 3: No price found for UPBD
+2025-03-10 22:28:37,380 - Fetched price for UPBD: None
+2025-03-10 22:28:38,575 - Error fetching price for APPS: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:28:38,575 - Attempt 1: No price found for APPS
+2025-03-10 22:28:40,734 - Error fetching price for APPS: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:28:40,737 - Attempt 2: No price found for APPS
+2025-03-10 22:28:42,818 - Error fetching price for APPS: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:28:42,818 - Attempt 3: No price found for APPS
+2025-03-10 22:28:44,822 - Fetched price for APPS: None
+2025-03-10 22:28:46,009 - Error fetching price for SBGI: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:28:46,009 - Attempt 1: No price found for SBGI
+2025-03-10 22:28:48,174 - Error fetching price for SBGI: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:28:48,174 - Attempt 2: No price found for SBGI
+2025-03-10 22:28:50,326 - Error fetching price for SBGI: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:28:50,326 - Attempt 3: No price found for SBGI
+2025-03-10 22:28:52,332 - Fetched price for SBGI: None
+2025-03-10 22:28:53,498 - Error fetching price for ENX: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:28:53,499 - Attempt 1: No price found for ENX
+2025-03-10 22:28:55,648 - Error fetching price for ENX: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:28:55,648 - Attempt 2: No price found for ENX
+2025-03-10 22:28:57,790 - Error fetching price for ENX: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:28:57,793 - Attempt 3: No price found for ENX
+2025-03-10 22:28:59,794 - Fetched price for ENX: None
+2025-03-10 22:29:00,946 - Error fetching price for EVH: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:29:00,947 - Attempt 1: No price found for EVH
+2025-03-10 22:29:03,052 - Error fetching price for EVH: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:29:03,054 - Attempt 2: No price found for EVH
+2025-03-10 22:29:05,142 - Error fetching price for EVH: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:29:05,142 - Attempt 3: No price found for EVH
+2025-03-10 22:29:07,149 - Fetched price for EVH: None
+2025-03-10 22:29:08,251 - Error fetching price for EVH: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:29:08,253 - Attempt 1: No price found for EVH
+2025-03-10 22:29:10,341 - Error fetching price for EVH: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:29:10,342 - Attempt 2: No price found for EVH
+2025-03-10 22:29:12,495 - Error fetching price for EVH: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:29:12,506 - Attempt 3: No price found for EVH
+2025-03-10 22:29:14,509 - Fetched price for EVH: None
+2025-03-10 22:29:15,762 - Error fetching price for TNYA: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:29:15,763 - Attempt 1: No price found for TNYA
+2025-03-10 22:29:17,879 - Error fetching price for TNYA: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:29:17,880 - Attempt 2: No price found for TNYA
+2025-03-10 22:29:19,973 - Error fetching price for TNYA: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:29:19,977 - Attempt 3: No price found for TNYA
+2025-03-10 22:29:21,980 - Fetched price for TNYA: None
+2025-03-10 22:29:23,019 - Error fetching price for TNYA: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:29:23,019 - Attempt 1: No price found for TNYA
+2025-03-10 22:29:25,125 - Error fetching price for TNYA: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:29:25,127 - Attempt 2: No price found for TNYA
+2025-03-10 22:29:27,260 - Error fetching price for TNYA: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:29:27,262 - Attempt 3: No price found for TNYA
+2025-03-10 22:29:29,265 - Fetched price for TNYA: None
+2025-03-10 22:29:30,464 - Error fetching price for JELD: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:29:30,466 - Attempt 1: No price found for JELD
+2025-03-10 22:29:32,602 - Error fetching price for JELD: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:29:32,607 - Attempt 2: No price found for JELD
+2025-03-10 22:29:34,684 - Error fetching price for JELD: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:29:34,686 - Attempt 3: No price found for JELD
+2025-03-10 22:29:36,687 - Fetched price for JELD: None
+2025-03-10 22:29:37,875 - Error fetching price for ECAT: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:29:37,877 - Attempt 1: No price found for ECAT
+2025-03-10 22:29:39,994 - Error fetching price for ECAT: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:29:39,996 - Attempt 2: No price found for ECAT
+2025-03-10 22:29:42,024 - Error fetching price for ECAT: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:29:42,024 - Attempt 3: No price found for ECAT
+2025-03-10 22:29:44,032 - Fetched price for ECAT: None
+2025-03-10 22:29:45,157 - Error fetching price for JANX: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:29:45,157 - Attempt 1: No price found for JANX
+2025-03-10 22:29:47,218 - Error fetching price for JANX: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:29:47,218 - Attempt 2: No price found for JANX
+2025-03-10 22:29:49,246 - Error fetching price for JANX: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:29:49,246 - Attempt 3: No price found for JANX
+2025-03-10 22:29:51,252 - Fetched price for JANX: None
+2025-03-10 22:29:52,376 - Error fetching price for CVI: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:29:52,376 - Attempt 1: No price found for CVI
+2025-03-10 22:29:54,441 - Error fetching price for CVI: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:29:54,454 - Attempt 2: No price found for CVI
+2025-03-10 22:29:56,550 - Error fetching price for CVI: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:29:56,550 - Attempt 3: No price found for CVI
+2025-03-10 22:29:58,554 - Fetched price for CVI: None
+2025-03-10 22:29:59,790 - Error fetching price for MGM: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:29:59,792 - Attempt 1: No price found for MGM
+2025-03-10 22:30:01,858 - Error fetching price for MGM: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:30:01,860 - Attempt 2: No price found for MGM
+2025-03-10 22:30:03,955 - Error fetching price for MGM: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:30:03,957 - Attempt 3: No price found for MGM
+2025-03-10 22:30:05,959 - Fetched price for MGM: None
+2025-03-10 22:30:07,260 - Error fetching price for SRE: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:30:07,263 - Attempt 1: No price found for SRE
+2025-03-10 22:30:09,346 - Error fetching price for SRE: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:30:09,347 - Attempt 2: No price found for SRE
+2025-03-10 22:30:11,410 - Error fetching price for SRE: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:30:11,410 - Attempt 3: No price found for SRE
+2025-03-10 22:30:13,422 - Fetched price for SRE: None
+2025-03-10 22:30:14,638 - Error fetching price for FLWS: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:30:14,641 - Attempt 1: No price found for FLWS
+2025-03-10 22:30:16,712 - Error fetching price for FLWS: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:30:16,713 - Attempt 2: No price found for FLWS
+2025-03-10 22:30:18,739 - Error fetching price for FLWS: 'Series' object has no attribute 'total_seconds'
+2025-03-10 22:30:18,739 - Attempt 3: No price found for FLWS
+2025-03-10 22:30:20,748 - Fetched price for FLWS: None
+2025-03-10 22:30:21,784 - Updated existing file with 20 new entries
+2025-03-10 22:30:21,818 - Insider trading data collection complete.
+2025-03-10 22:35:24,659 - Starting insider trading data collection...
+2025-03-10 22:35:25,137 - Fetching prices for 20 new entries...
+2025-03-10 22:35:25,609 - Error fetching price for UAN: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-03-10 22:35:25,609 - Attempt 1: No price found for UAN
+2025-03-10 22:35:27,722 - Error fetching price for UAN: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-03-10 22:35:27,722 - Attempt 2: No price found for UAN
+2025-03-10 22:35:29,839 - Error fetching price for UAN: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-03-10 22:35:29,841 - Attempt 3: No price found for UAN
+2025-03-10 22:35:31,843 - Fetched price for UAN: None
+2025-03-10 22:35:33,006 - Error fetching price for CE: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-03-10 22:35:33,009 - Attempt 1: No price found for CE
+2025-03-10 22:35:35,104 - Error fetching price for CE: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-03-10 22:35:35,104 - Attempt 2: No price found for CE
+2025-03-10 22:35:37,195 - Error fetching price for CE: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-03-10 22:35:37,196 - Attempt 3: No price found for CE
+2025-03-10 22:35:39,202 - Fetched price for CE: None
+2025-03-10 22:35:40,356 - Error fetching price for CDXS: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-03-10 22:35:40,358 - Attempt 1: No price found for CDXS
+2025-03-10 22:35:42,468 - Error fetching price for CDXS: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-03-10 22:35:42,471 - Attempt 2: No price found for CDXS
+2025-03-10 22:35:44,563 - Error fetching price for CDXS: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-03-10 22:35:44,563 - Attempt 3: No price found for CDXS
+2025-03-10 22:35:46,571 - Fetched price for CDXS: None
+2025-03-10 22:35:47,696 - Error fetching price for LKFN: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-03-10 22:35:47,704 - Attempt 1: No price found for LKFN
+2025-03-10 22:35:49,788 - Error fetching price for LKFN: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-03-10 22:35:49,788 - Attempt 2: No price found for LKFN
+2025-03-10 22:35:51,888 - Error fetching price for LKFN: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-03-10 22:35:51,891 - Attempt 3: No price found for LKFN
+2025-03-10 22:35:53,896 - Fetched price for LKFN: None
+2025-03-10 22:35:55,108 - Error fetching price for WSC: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-03-10 22:35:55,111 - Attempt 1: No price found for WSC
+2025-03-10 22:35:57,177 - Error fetching price for WSC: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-03-10 22:35:57,178 - Attempt 2: No price found for WSC
+2025-03-10 22:35:59,288 - Error fetching price for WSC: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-03-10 22:35:59,288 - Attempt 3: No price found for WSC
+2025-03-10 22:36:01,297 - Fetched price for WSC: None
+2025-03-10 22:36:02,444 - Error fetching price for AAP: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-03-10 22:36:02,444 - Attempt 1: No price found for AAP
+2025-03-10 22:36:04,562 - Error fetching price for AAP: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-03-10 22:36:04,563 - Attempt 2: No price found for AAP
+2025-03-10 22:36:06,646 - Error fetching price for AAP: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-03-10 22:36:06,649 - Attempt 3: No price found for AAP
+2025-03-10 22:36:08,654 - Fetched price for AAP: None
+2025-03-10 22:36:09,818 - Error fetching price for UPBD: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-03-10 22:36:09,818 - Attempt 1: No price found for UPBD
+2025-03-10 22:36:12,101 - Error fetching price for UPBD: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-03-10 22:36:12,120 - Attempt 2: No price found for UPBD
+2025-03-10 22:36:14,230 - Error fetching price for UPBD: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-03-10 22:36:14,231 - Attempt 3: No price found for UPBD
+2025-03-10 22:36:16,234 - Fetched price for UPBD: None
+2025-03-10 22:36:17,432 - Error fetching price for APPS: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-03-10 22:36:17,441 - Attempt 1: No price found for APPS
+2025-03-10 22:36:19,516 - Error fetching price for APPS: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-03-10 22:36:19,517 - Attempt 2: No price found for APPS
+2025-03-10 22:37:45,685 - Updated existing file with 7 new entries
