@@ -347,3 +347,23 @@
 2025-03-10 22:36:19,516 - Error fetching price for APPS: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
 2025-03-10 22:36:19,517 - Attempt 2: No price found for APPS
 2025-03-10 22:37:45,685 - Updated existing file with 7 new entries
+2025-03-10 22:45:04,090 - Updated existing file with 7 new entries
+2025-03-11 15:15:48,137 - Updated existing file with 12 new entries
+2025-03-11 15:45:04,297 - Updated existing file with 12 new entries
+2025-03-11 19:00:50,333 - Error scraping website: HTTPConnectionPool(host='openinsider.com', port=80): Max retries exceeded with url: /insider-purchases (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x00000226E6E06AD0>: Failed to resolve 'openinsider.com' ([Errno 11001] getaddrinfo failed)"))
+2025-03-11 19:15:10,601 - Updated existing file with 13 new entries
+2025-03-11 19:45:04,520 - Updated existing file with 13 new entries
+2025-03-11 20:52:44,367 - Updated existing file with 13 new entries
+2025-03-11 21:16:04,624 - Updated existing file with 13 new entries
+2025-03-11 22:45:04,732 - Updated existing file with 15 new entries
+2025-03-11 23:15:04,091 - Updated existing file with 15 new entries
+2025-03-11 23:45:03,691 - Updated existing file with 17 new entries
+2025-03-12 00:15:04,410 - Updated existing file with 19 new entries
+2025-03-12 00:45:04,687 - Updated existing file with 19 new entries
+2025-03-12 12:15:46,418 - Updated existing file with 23 new entries
+2025-03-12 12:45:05,176 - Updated existing file with 23 new entries
+2025-03-12 14:15:08,664 - Updated existing file with 23 new entries
+2025-03-12 14:45:03,697 - Updated existing file with 23 new entries
+2025-03-12 15:15:03,672 - Updated existing file with 23 new entries
+2025-03-12 15:45:05,363 - Updated existing file with 22 new entries
+2025-03-12 16:47:37,174 - Error scraping website: HTTPConnectionPool(host='openinsider.com', port=80): Max retries exceeded with url: /insider-purchases (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x00000296CC3FDFD0>: Failed to resolve 'openinsider.com' ([Errno 11001] getaddrinfo failed)"))
