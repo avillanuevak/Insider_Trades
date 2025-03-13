@@ -5,6 +5,7 @@ from datetime import datetime
 import logging
 import os
 from dotenv import load_dotenv
+from logging.handlers import RotatingFileHandler
 
 # Load environment variables from .env file
 load_dotenv()
@@ -18,13 +19,13 @@ except NameError:
 log_file = os.path.join(script_dir, 'insider_scraping.log')
 csv_file = os.path.join(script_dir, 'insider_buys.csv')
 
-# Set up logging with FileHandler to ensure append mode
+# Set up logging with RotatingFileHandler to limit the log file to the last 100 entries
 logger = logging.getLogger('insider_scraper')
 logger.setLevel(logging.INFO)
 
 # Check if logger already has handlers to avoid duplicate handlers
 if not logger.handlers:
-    handler = logging.FileHandler(log_file, mode='a')
+    handler = RotatingFileHandler(log_file, mode='a', maxBytes=0, backupCount=100)
     formatter = logging.Formatter('%(asctime)s - %(message)s')
     handler.setFormatter(formatter)
     logger.addHandler(handler)
@@ -32,7 +33,7 @@ if not logger.handlers:
 # Add console handler
 if not logger.handlers:
     # File handler (existing code)
-    file_handler = logging.FileHandler(log_file, mode='a')
+    file_handler = RotatingFileHandler(log_file, mode='a', maxBytes=0, backupCount=100)
     file_handler.setFormatter(formatter)
     logger.addHandler(file_handler)
     
@@ -41,74 +42,91 @@ if not logger.handlers:
     console_handler.setFormatter(formatter)
     logger.addHandler(console_handler)
 
-def get_price_at_filing(ticker, filing_datetime):
-    try:
-        url = f"https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol={ticker}&interval=1min&apikey={ALPHA_VANTAGE_API_KEY}&outputsize=full"
-        response = requests.get(url)
-        data = response.json()
+def fetch_price(ticker, filing_datetime, ALPHA_VANTAGE_API_KEY):
+    # Primary method with 1min interval
+    url = f"https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol={ticker}&interval=1min&apikey={ALPHA_VANTAGE_API_KEY}&outputsize=full"
+    response = requests.get(url)
+    data = response.json()
+    
+    if 'Time Series (1min)' in data:
+        time_series = data['Time Series (1min)']
+        times = []
+        for timestamp in time_series.keys():
+            try:
+                dt = datetime.strptime(timestamp, '%Y-%m-%d %H:%M:00')
+                if dt <= filing_datetime:
+                    times.append((dt, timestamp))
+            except ValueError:
+                continue
         
-        if 'Time Series (1min)' in data:
-            time_series = data['Time Series (1min)']
-            filing_str = filing_datetime.strftime('%Y-%m-%d %H:%M:00')
+        if times:
+            times.sort(key=lambda x: abs((filing_datetime - x[0]).total_seconds()))
+            closest_time = times[0][1]
             
-            # Convert time series keys to datetime for accurate comparison
-            times = []
-            for timestamp in time_series.keys():
-                try:
-                    dt = datetime.strptime(timestamp, '%Y-%m-%d %H:%M:00')
-                    if dt <= filing_datetime:
-                        times.append((dt, timestamp))
-                except ValueError:
-                    continue
+            # Log the time difference for monitoring
+            time_diff = abs((filing_datetime - times[0][0]).total_seconds())
+            if time_diff > 300:  # If difference is more than 5 minutes
+                logger.warning(f"Price for {ticker} found {time_diff/60:.1f} minutes from filing time")
             
-            if times:
-                # Sort by time difference to filing time
-                times.sort(key=lambda x: abs((filing_datetime - x[0]).total_seconds()))
-                closest_time = times[0][1]
-                
-                # Log the time difference for monitoring
-                time_diff = abs((filing_datetime - times[0][0]).total_seconds())
-                if time_diff > 300:  # If difference is more than 5 minutes
-                    logger.warning(f"Price for {ticker} found {time_diff/60:.1f} minutes from filing time")
-                
-                return float(time_series[closest_time]['4. close'])
-            
-            logger.warning(f"No valid price found for {ticker} at {filing_datetime}")
-            return None
-            
-        else:
-            # Try backup method with 5min intervals if 1min not available
-            url = f"https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol={ticker}&interval=5min&apikey={ALPHA_VANTAGE_API_KEY}&outputsize=full"
-            response = requests.get(url)
-            data = response.json()
-            
-            if 'Time Series (5min)' in data:
-                time_series = data['Time Series (5min)']
-                times = []
-                for timestamp in time_series.keys():
-                    try:
-                        dt = datetime.strptime(timestamp, '%Y-%m-%d %H:%M:00')
-                        if dt <= filing_datetime:
-                            times.append((dt, timestamp))
-                    except ValueError:
-                        continue
-                
-                if times:
-                    times.sort(key=lambda x: abs((filing_datetime - x[0]).total_seconds()))
-                    closest_time = times[0][1]
-                    
-                    time_diff = abs((filing_datetime - times[0][0]).total_seconds())
-                    if time_diff > 300:
-                        logger.warning(f"Price for {ticker} found {time_diff/60:.1f} minutes from filing time (5min data)")
-                    
-                    return float(time_series[closest_time]['4. close'])
-            
-            logger.warning(f"No price data available for {ticker}")
-            return None
-            
-    except Exception as e:
-        logger.error(f"Error fetching price for {ticker}: {str(e)}")
+            return float(time_series[closest_time]['4. close'])
+        
+        logger.warning(f"No valid price found for {ticker} at {filing_datetime}")
         return None
+    
+    # Backup method with 5min intervals
+    url = f"https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol={ticker}&interval=5min&apikey={ALPHA_VANTAGE_API_KEY}&outputsize=full"
+    response = requests.get(url)
+    data = response.json()
+    
+    if 'Time Series (5min)' in data:
+        time_series = data['Time Series (5min)']
+        times = []
+        for timestamp in time_series.keys():
+            try:
+                dt = datetime.strptime(timestamp, '%Y-%m-%d %H:%M:00')
+                if dt <= filing_datetime:
+                    times.append((dt, timestamp))
+            except ValueError:
+                continue
+        
+        if times:
+            times.sort(key=lambda x: abs((filing_datetime - x[0]).total_seconds()))
+            closest_time = times[0][1]
+            
+            time_diff = abs((filing_datetime - times[0][0]).total_seconds())
+            if time_diff > 300:  # If difference is more than 5 minutes
+                logger.warning(f"Price for {ticker} found {time_diff/60:.1f} minutes from filing time")
+            
+            return float(time_series[closest_time]['4. close'])
+    
+    # Additional backup method with 30min intervals
+    url = f"https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol={ticker}&interval=30min&apikey={ALPHA_VANTAGE_API_KEY}&outputsize=full"
+    response = requests.get(url)
+    data = response.json()
+    
+    if 'Time Series (30min)' in data:
+        time_series = data['Time Series (30min)']
+        times = []
+        for timestamp in time_series.keys():
+            try:
+                dt = datetime.strptime(timestamp, '%Y-%m-%d %H:%M:00')
+                if dt <= filing_datetime:
+                    times.append((dt, timestamp))
+            except ValueError:
+                continue
+        
+        if times:
+            times.sort(key=lambda x: abs((filing_datetime - x[0]).total_seconds()))
+            closest_time = times[0][1]
+            
+            time_diff = abs((filing_datetime - times[0][0]).total_seconds())
+            if time_diff > 300:  # If difference is more than 5 minutes
+                logger.warning(f"Price for {ticker} found {time_diff/60:.1f} minutes from filing time")
+            
+            return float(time_series[closest_time]['4. close'])
+    
+    logger.warning(f"No valid price found for {ticker} at {filing_datetime}")
+    return None
 
 def scrape_insider_buys():
     try:

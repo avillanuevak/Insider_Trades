@@ -38,7 +38,7 @@ jobs:
     - name: Run scraper
       run: |
         python Scraping/Scrape_Info.py
-        python Scraping/update_price_bought.py
+        python Scraping/update_price_boughtAV.py
       
     - name: Commit and push if changes
       run: |
